@@ -1,6 +1,6 @@
 # RedLock_Account_Onboarding
 
-This script automates the process of on boarding AWS Enterprise Hosting accounts to Redlock. This script is hosted on AWS Lambda and will be run on schedule (12:00 AM EST/Everyday)
+This script automates the process of on boarding AWS EH accounts to Redlock. This script is hosted on AWS Lambda and will be run on schedule (12:00 AM EST/Everyday)
 
 ## Logic 
 
