@@ -13,11 +13,11 @@ accounts_in_redlock = {}
 Headers = {}
 
 Account_Groups = { 
-		"AWS FactSet Development":"XYZ",
-		"AWS FactSet Production":"XYZ",
-		"AWS EH Client Production": "XYZ", 
-		"Azure FactSet Production":"XYZ",
-		"Azure Open FactSet":"XYZ"
+		"AWS xyz Development":"XYZ",
+		"AWS xyz Production":"XYZ",
+		"AWS xyz Production": "XYZ", 
+		"Azure xyz Production":"XYZ",
+		"Azure xyz ":"XYZ"
 		}		
 
 # Function to login to Redlock and generate an API token 
