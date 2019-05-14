@@ -38,7 +38,7 @@ def redlock_login():
 
 	Headers = {"Content-Type":"application/json"}
 	payload = {"username":un,"customerName":"", "password":pwd}
-	response = requests.request("POST", url, data=json.dumps(payload), headers=Headers, verify=False)
+	response = requests.request("POST", url, data=json.dumps(payload), headers=Headers)
 
 	return response.json()["token"]
 	
