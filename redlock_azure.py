@@ -21,7 +21,7 @@ def redlock_login():
 
 	Headers = {"Content-Type":"application/json"}
 	payload = {"username":username,"customerName":"", "password":password}
-	response = requests.request("POST", url, data=json.dumps(payload), headers=Headers, verify=False)
+	response = requests.request("POST", url, data=json.dumps(payload), headers=Headers)
 
 	return response.json()["token"]
 	
@@ -56,7 +56,7 @@ def azure_account_addition(name, account_num, groupids):
 					
 			}
 
-	response = requests.request("POST", url, data=json.dumps(Body), headers=Headers, verify=False)
+	response = requests.request("POST", url, data=json.dumps(Body), headers=Headers)
 	print(response.status_code)
 	if response.status_code == 200:
 		print(name, account_num, "was added Redlock")
