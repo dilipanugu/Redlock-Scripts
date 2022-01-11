@@ -8,7 +8,7 @@ Headers = {}
 
 Account_Groups = { 
 		"Azure XYZ":"123456789abc",
-		"Azure FactSet":"123456789abc"
+		"Azure":"123456789abc"
 		}		
 
 # Function to login to Redlock and generate an API token 
